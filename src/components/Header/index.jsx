@@ -1,4 +1,4 @@
-import React, { useState, createContext } from 'react';
+import { useState, createContext } from 'react';
 import ArtistCard from '../Artist'
 import Card from '../Card';
 import styles from './styles.module.css';
