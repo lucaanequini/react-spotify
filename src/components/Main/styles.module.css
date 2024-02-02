@@ -1,0 +1,57 @@
+/* PLAYLIST */
+.playlist_container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.playlist {
+    margin: 24px;
+}
+
+#greeting {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.session {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* SCROLL */
+.offer__scroll_container {
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+.offer__scroll_container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.offer__scroll_container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+/* FIM SCROLL */
+
+.offer__list_item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+    display: grid;
+    gap: 16px;
+    grid-gap: 32px;
+    margin: 0 auto;
+}

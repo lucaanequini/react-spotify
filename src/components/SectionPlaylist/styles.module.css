@@ -1,0 +1,59 @@
+.section_playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.section_playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 700;
+    padding: 10px 0;
+    color: #fff;
+
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.default_btn {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 8px 0px;
+    border: 0px;
+    transition: .2s;
+}
+
+.small {
+    width: 120px;
+}
+
+.normal {
+    width: 160px;
+}
+
+.default_btn:hover {
+    padding: 10px;
+}

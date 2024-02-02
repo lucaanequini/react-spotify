@@ -1,0 +1,30 @@
+.cards {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: .2s;
+}
+
+.cards:hover {
+    width: 240px;
+    height: 220px;
+}
+
+.cards span {
+    padding: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cardImg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+}
